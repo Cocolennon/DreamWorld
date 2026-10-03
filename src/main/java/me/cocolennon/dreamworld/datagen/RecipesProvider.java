@@ -1,5 +1,6 @@
 package me.cocolennon.dreamworld.datagen;
 
+import me.cocolennon.dreamworld.blocks.ModBlocks;
 import me.cocolennon.dreamworld.items.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -10,7 +11,6 @@ import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Recipe;
 
 import java.util.concurrent.CompletableFuture;
@@ -26,7 +26,7 @@ public class RecipesProvider extends FabricRecipeProvider {
             @Override
             public void buildRecipes() {
                 HolderLookup.RegistryLookup<Item> itemLookup = registries.lookupOrThrow(Registries.ITEM);
-                shaped(RecipeCategory.DECORATIONS, Items.CRAFTING_TABLE, 1)
+                shaped(RecipeCategory.DECORATIONS, ModBlocks.CLOUD_BLOCK, 1)
                         .pattern("cc")
                         .pattern("cc")
                         .define('c', ModItems.CLOUD_PUFF)
