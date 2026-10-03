@@ -18,6 +18,7 @@ public class DreamWorldDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(NoiseSettingsProvider::new);
 		pack.addProvider(FeaturesProvider::new);
 		pack.addProvider(AdvancementsProvider::new);
+		pack.addProvider(RecipesProvider::new);
 	}
 
 	@Override

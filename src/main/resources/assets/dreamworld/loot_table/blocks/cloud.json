@@ -6,7 +6,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dreamworld:cloud"
+          "name": "dreamworld:cloud_puff",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
         }
       ],
       "conditions": [
