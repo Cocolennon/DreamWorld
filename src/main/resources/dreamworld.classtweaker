@@ -1,0 +1,2 @@
+classTweaker v1 official
+accessible method net/minecraft/world/level/levelgen/NoiseGeneratorSettings overworld (Lnet/minecraft/data/worldgen/BootstrapContext;ZZ)Lnet/minecraft/world/level/levelgen/NoiseGeneratorSettings;

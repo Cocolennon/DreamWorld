@@ -1,0 +1,6 @@
+{
+  "comparator_output": 15,
+  "description": { "translate": "jukebox_song.dreamworld.ochame_kinou" },
+  "length_in_seconds": 180,
+  "sound_event": { "sound_id": "dreamworld:music_disc.ochame_kinou" }
+}

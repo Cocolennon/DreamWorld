@@ -1,0 +1,5 @@
+{
+  "music_disc.ochame_kinou": {
+    "sounds": [{ "name": "dreamworld:records/ochame_kinou", "stream": true }]
+  }
+}

@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "dreamworld",
+	"version": "${version}",
+	"name": "Dream World",
+	"description": "Brings PillowDear's Dream World to Minecraft",
+	"authors": [
+		"Coco Lennon", "Aorinnie",
+		"Tato", "Exerios"
+	],
+	"contact": {
+		"homepage": "https://x.com/CocolennonVLR",
+		"sources": "https://x.com/CocolennonVLR"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/dreamworld/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["me.cocolennon.dreamworld.DreamWorld"],
+		"client": ["me.cocolennon.dreamworld.DreamWorldClient"],
+		"fabric-datagen": ["me.cocolennon.dreamworld.DreamWorldDataGenerator"]
+	},
+	"mixins": [
+		"dreamworld.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"accessWidener": "dreamworld.classtweaker"
+}

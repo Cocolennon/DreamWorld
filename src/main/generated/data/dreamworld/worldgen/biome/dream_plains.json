@@ -1,0 +1,36 @@
+{
+  "attributes": {
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {}
+      },
+      "modifier": "overlay"
+    }
+  },
+  "carvers": [],
+  "downfall": 0.5,
+  "effects": {
+    "grass_color": "#00d103",
+    "water_color": "#7008e7"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:trees_plains",
+      "minecraft:flower_meadow",
+      "minecraft:patch_grass_plain",
+      "dreamworld:cloud"
+    ]
+  ],
+  "has_precipitation": true,
+  "temperature": 0.7
+}

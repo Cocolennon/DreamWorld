@@ -1,0 +1,42 @@
+package me.cocolennon.dreamworld.entities;
+
+import net.minecraft.world.entity.AnimationState;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.PathfinderMob;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
+import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
+import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
+import net.minecraft.world.entity.ai.goal.TemptGoal;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.Level;
+
+public class PiwwoEntity extends PathfinderMob {
+    public final AnimationState flopAnimationState = new AnimationState();
+
+    public PiwwoEntity(Level world) {
+        this(ModEntityTypes.PIWWO, world);
+    }
+
+    public PiwwoEntity(EntityType<? extends PiwwoEntity> entityType, Level world) {
+        super(entityType, world);
+    }
+
+    public static AttributeSupplier.Builder createAttributes() {
+        return PathfinderMob.createMobAttributes()
+                .add(Attributes.MAX_HEALTH, 15)
+                .add(Attributes.TEMPT_RANGE, 6)
+                .add(Attributes.MOVEMENT_SPEED, 0.2F);
+    }
+
+    @Override
+    protected void registerGoals() {
+        this.goalSelector.addGoal(0, new TemptGoal(this, 1.15, Ingredient.of(Items.FEATHER), false));
+        this.goalSelector.addGoal(1, new RandomStrollGoal(this, 1));
+        this.goalSelector.addGoal(2, new LookAtPlayerGoal(this, Player.class, 4));
+        this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
+    }
+}
