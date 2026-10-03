@@ -7,6 +7,7 @@ import net.minecraft.world.item.Item;
 
 public class ModItemIds {
     public static final ResourceKey<Item> SLEEP_PILL = create("sleep_pill");
+    public static final ResourceKey<Item> CLOUD_PUFF = create("cloud_puff");
     public static final ResourceKey<Item> OCHAME_KINOU_DISC = create("ochame_kinou_disc");
 
     public static ResourceKey<Item> create(String name) {

@@ -3,6 +3,7 @@ package me.cocolennon.dreamworld;
 import me.cocolennon.dreamworld.blocks.ModBlocks;
 import me.cocolennon.dreamworld.command.DreamWorldCommand;
 import me.cocolennon.dreamworld.entities.ModEntityTypes;
+import me.cocolennon.dreamworld.items.ModCreativeTabs;
 import me.cocolennon.dreamworld.worldgen.features.ModFeatures;
 import me.cocolennon.dreamworld.items.ModItems;
 import me.cocolennon.dreamworld.util.SleepHandler;
@@ -23,6 +24,7 @@ public class DreamWorld implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing Dream World");
 		ModEntityTypes.initialize();
+		ModCreativeTabs.initialize();
 		ModBlocks.initialize();
 		ModItems.initialize();
 		ModFeatures.initialize();
