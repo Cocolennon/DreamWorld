@@ -8,5 +8,7 @@ If you are a piwwo and you know how to code, make textures, make sprites or buil
 PillowDear is the dream entity who lives in your head to help you sleep in bed!
 She's an independent VTuber who plays video games, sings, draws, does handcams and ASMR!
 She's also the sweetest girl to ever grace this plane of existence!
+YouTube: [@pillowdear](https://www.youtube.com/@pillowdear)
+Twitter: [@pillowdearASMR](https://x.com/pillowdearASMR)
 
 # This repository is under GNU General Public License v3.0 and contains all of the mod's source code, textures, etc..
