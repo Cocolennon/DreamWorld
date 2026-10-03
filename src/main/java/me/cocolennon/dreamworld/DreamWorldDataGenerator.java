@@ -1,9 +1,6 @@
 package me.cocolennon.dreamworld;
 
-import me.cocolennon.dreamworld.datagen.BiomeProvider;
-import me.cocolennon.dreamworld.datagen.DimensionProvider;
-import me.cocolennon.dreamworld.datagen.FeaturesProvider;
-import me.cocolennon.dreamworld.datagen.NoiseSettingsProvider;
+import me.cocolennon.dreamworld.datagen.*;
 import me.cocolennon.dreamworld.worldgen.ModBiomes;
 import me.cocolennon.dreamworld.worldgen.ModDimensions;
 import me.cocolennon.dreamworld.worldgen.ModNoiseSettings;
@@ -20,6 +17,7 @@ public class DreamWorldDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(BiomeProvider::new);
 		pack.addProvider(NoiseSettingsProvider::new);
 		pack.addProvider(FeaturesProvider::new);
+		pack.addProvider(AdvancementsProvider::new);
 	}
 
 	@Override
