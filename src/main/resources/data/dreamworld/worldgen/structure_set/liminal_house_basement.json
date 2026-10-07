@@ -1,0 +1,9 @@
+{
+  "structures": [{ "structure": "dreamworld:liminal_house_basement", "weight": 1 }],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 24,
+    "separation": 10,
+    "salt": 13022000
+  }
+}
