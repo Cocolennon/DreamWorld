@@ -1,5 +1,8 @@
 {
   "music_disc.ochame_kinou": {
     "sounds": [{ "name": "dreamworld:records/ochame_kinou", "stream": true }]
+  },
+  "music_disc.hide_and_seek": {
+    "sounds": [{ "name":  "dreamworld:records/hide_and_seek", "stream": true }]
   }
 }

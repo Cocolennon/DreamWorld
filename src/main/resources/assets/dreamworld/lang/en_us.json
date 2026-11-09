@@ -4,7 +4,9 @@
   "item.dreamworld.cloud_puff": "Cloud Puff",
   "item.dreamworld.sleep_pill": "Sleeping Pill",
   "item.dreamworld.ochame_kinou_disc": "Music Disc",
+  "item.dreamworld.hide_and_seek_disc": "Music Disc",
   "effect.dreamworld.dreamy": "Dreamy",
   "entity.dreamworld.piwwo": "Piwwo",
-  "jukebox_song.dreamworld.ochame_kinou": "Ochame Kinou (PillowDear Cover)"
+  "jukebox_song.dreamworld.ochame_kinou": "Ochame Kinou (PillowDear Cover)",
+  "jukebox_song.dreamworld.hide_and_seek": "Hide and Seek (PillowDear Cover)"
 }

@@ -1,0 +1,6 @@
+{
+  "comparator_output": 15,
+  "description": { "translate": "jukebox_song.dreamworld.hide_and_seek" },
+  "length_in_seconds": 138,
+  "sound_event": { "sound_id": "dreamworld:music_disc.hide_and_seek" }
+}

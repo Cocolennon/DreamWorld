@@ -22,7 +22,9 @@ public class ModItems {
     public static final Item CLOUD_PUFF = register(ModItemIds.CLOUD_PUFF, Item::new, new Item.Properties().stacksTo(16));
 
     public static final ResourceKey<JukeboxSong> OCHAME_KINOU_SONG = ResourceKey.create(Registries.JUKEBOX_SONG, DreamWorld.id("ochame_kinou"));
+    public static final ResourceKey<JukeboxSong> HIDE_AND_SEEK_SONG = ResourceKey.create(Registries.JUKEBOX_SONG, DreamWorld.id("hide_and_seek"));
     public static final Item OCHAME_KINOU_DISC = register(ModItemIds.OCHAME_KINOU_DISC, Item::new, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).jukeboxPlayable(OCHAME_KINOU_SONG));
+    public static final Item HIDE_AND_SEEK_DISC = register(ModItemIds.HIDE_AND_SEEK_DISC, Item::new, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).jukeboxPlayable(HIDE_AND_SEEK_SONG));
 
     public static Item register(ResourceKey<Item> itemKey, Function<Item.Properties, Item> itemFactory, Item.Properties settings) {
         Item item = itemFactory.apply(settings.setId(itemKey));
@@ -36,6 +38,7 @@ public class ModItems {
             dreamWorldTab.accept(CLOUD_PUFF);
             dreamWorldTab.accept(SLEEP_PILL);
             dreamWorldTab.accept(OCHAME_KINOU_DISC);
+            dreamWorldTab.accept(HIDE_AND_SEEK_DISC);
         });
     }
 }
