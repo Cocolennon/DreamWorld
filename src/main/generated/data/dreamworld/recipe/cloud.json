@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": "dreamworld:cloud_puff"
+  },
+  "pattern": [
+    "cc",
+    "cc"
+  ],
+  "result": {
+    "id": "dreamworld:cloud"
+  }
+}
