@@ -1,0 +1,28 @@
+{
+  "parent": "dreamworld:entered_dreamworld",
+  "criteria": {
+    "gathered_clouds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dreamworld:cloud_puff"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "My mom used to tell me you couldn't",
+    "icon": {
+      "id": "dreamworld:cloud_puff"
+    },
+    "title": "Gather the clouds"
+  },
+  "requirements": [
+    [
+      "gathered_clouds"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

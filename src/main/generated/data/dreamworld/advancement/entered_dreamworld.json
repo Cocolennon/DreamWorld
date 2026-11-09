@@ -1,0 +1,25 @@
+{
+  "parent": "dreamworld:root",
+  "criteria": {
+    "entered_dreamworld": {
+      "conditions": {
+        "to": "dreamworld:dreamworlddim"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "description": "Enter the Dream World",
+    "frame": "goal",
+    "icon": {
+      "id": "dreamworld:sleep_pill"
+    },
+    "title": "Start Dreaming"
+  },
+  "requirements": [
+    [
+      "entered_dreamworld"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

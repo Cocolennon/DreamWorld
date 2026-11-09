@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "dreamworld:gui/advancements/backgrounds/cloud",
+    "description": "Time passes slower here",
+    "frame": "goal",
+    "icon": {
+      "id": "dreamworld:cloud_puff"
+    },
+    "show_toast": false,
+    "title": "Dream World"
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
